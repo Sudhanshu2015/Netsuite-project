@@ -374,7 +374,7 @@ define([ 'N/file', 'N/record', 'N/runtime', 'N/search','N/email','N/error'],
 			            return true;
 			        });
 			        log.debug('finalErrorMsg',finalErrorMsg);
-			        
+			        // This is used to create file
 			        var createFile = file.create({
 			        	name: 'ErrorFile SR.csv',
 			        	fileType: file.Type.CSV,
